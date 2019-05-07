@@ -5,12 +5,10 @@ import { withApollo } from 'react-apollo';
 import storage from 'localforage';
 import { safeLoad, safeDump } from 'js-yaml';
 import { bool } from 'prop-types';
-import {
-  toDate,
-  differenceInMilliseconds,
-  addMilliseconds,
-  addHours,
-} from 'date-fns';
+import toDate from 'date-fns/parse';
+import differenceInMilliseconds from 'date-fns/difference_in_milliseconds';
+import addMilliseconds from 'date-fns/add_milliseconds';
+import addHours from 'date-fns/add_hours';
 import CodeEditor from '@mozilla-frontend-infra/components/CodeEditor';
 import { withStyles } from '@material-ui/core/styles';
 import Switch from '@material-ui/core/Switch';
