@@ -1,5 +1,6 @@
 import { Component } from 'react';
-import { formatDistance, formatDistanceStrict } from 'date-fns';
+import formatDistance from 'date-fns/distance_in_words';
+import formatDistanceStrict from 'date-fns/distance_in_words_strict';
 import { date } from '../../utils/prop-types';
 
 /**
