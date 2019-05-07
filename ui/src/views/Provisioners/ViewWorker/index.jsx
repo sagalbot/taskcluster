@@ -1,7 +1,9 @@
 import { hot } from 'react-hot-loader';
 import React, { Component, Fragment } from 'react';
 import { graphql, withApollo } from 'react-apollo';
-import { format, addYears, isAfter } from 'date-fns';
+import format from 'date-fns/format';
+import addYears from 'date-fns/add_years';
+import isAfter from 'date-fns/is_after';
 import Spinner from '@mozilla-frontend-infra/components/Spinner';
 import TextField from '@material-ui/core/TextField';
 import HomeLockIcon from 'mdi-react/HomeLockIcon';

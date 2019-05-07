@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { func, string } from 'prop-types';
-import { formatDistanceStrict } from 'date-fns';
+import formatDistanceStrict from 'date-fns/distance_in_words_strict';
 import { pipe, map, sort as rSort } from 'ramda';
 import memoize from 'fast-memoize';
 import { CopyToClipboard } from 'react-copy-to-clipboard';

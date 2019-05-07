@@ -1,4 +1,4 @@
-import { compareDesc } from 'date-fns';
+import compareDesc from 'date-fns/compare_desc';
 import { or } from 'ramda';
 
 /**

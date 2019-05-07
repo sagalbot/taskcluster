@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { bool, func } from 'prop-types';
-import { addYears } from 'date-fns';
+import addYears from 'date-fns/add_years';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';

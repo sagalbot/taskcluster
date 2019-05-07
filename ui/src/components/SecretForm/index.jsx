@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { bool, func } from 'prop-types';
-import { addYears } from 'date-fns';
+import addYears from 'date-fns/add_years';
 import { safeDump, safeLoad } from 'js-yaml';
 import CodeEditor from '@mozilla-frontend-infra/components/CodeEditor';
 import { withStyles } from '@material-ui/core/styles';
